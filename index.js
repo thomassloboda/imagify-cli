@@ -85,13 +85,14 @@ if (files.length > 0 && authHeader !== "") {
         }, function (err, response, body) {
             var data = JSON.parse(body);
             if (data.success) {
+                console.log("File sent.");
                 console.log("Downloading " + data.image + ".");
                 download(data.image, path.join(dest, path.basename(url.parse(data.image).pathname)), function () {
                     console.log("Downloaded.");
                 });
+            } else {
+                console.log(data.details);
             }
-        }).on("data", function (data) {
-            console.log("File sent.");
         });
     }
 } else if (files.length === 0) {
