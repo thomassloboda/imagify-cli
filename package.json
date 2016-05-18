@@ -1,0 +1,15 @@
+{
+  "name": "imagify-cli",
+  "version": "1.0.16139",
+  "description": "Imagify cli tool",
+  "scripts": {},
+  "bin": {
+    "imagify": "./index.js"
+  },
+  "preferGlobal": true,
+  "author": "Thomas Sloboda <thomas.sloboda@xbrain.io>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
