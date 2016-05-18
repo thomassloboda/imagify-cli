@@ -7,7 +7,7 @@
     "imagify": "./index.js"
   },
   "preferGlobal": true,
-  "author": "Thomas Sloboda <thomas.sloboda@xbrain.io>",
+  "author": "Thomas Sloboda <thomas@sloboda.fr>",
   "license": "ISC",
   "repository": {
     "type": "git",
