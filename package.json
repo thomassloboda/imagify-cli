@@ -9,6 +9,10 @@
   "preferGlobal": true,
   "author": "Thomas Sloboda <thomas.sloboda@xbrain.io>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tho;qsslobodq/imagify-cli.git"
+  },
   "dependencies": {
     "request": "^2.72.0"
   }
