@@ -1,5 +1,7 @@
 # imagify-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thomassloboda/imagify-cli.svg)](https://greenkeeper.io/)
+
 Command-line tool for [Imagify](https://imagify.io/)
 
 ## Install
